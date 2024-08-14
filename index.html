@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Carrelage - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <p class="blue">Pour votre bien-être depuis plus de 20 ans!</p>
+                <div class="top-bar-links">
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Points de vente</a>
+                    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                    <a href="#"><i class="fas fa-clock"></i> 9h à 19h</a>
+                    <a href="tel:+212528270927"><i class="fas fa-phone"></i> +212 528 270 927</a>
+                    <a href="https://wa.me/+212665477717"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/MaisonCarrelage"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/maison.carrelage"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="/images/MAISONLOGO.png" alt="Maison Carrelage">
+                </div>
+                <div class="search-and-cart">
+                    <input type="text" placeholder="Rechercher des produits...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="toggle-menu"><i class="fas fa-bars"></i></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="menu-title">Nos Marques <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ctesi.html">CTESI</a></li>
+                            <li><a href="#">JACOB DELAFON</a></li>
+                            <li><a href="#">GEBERIT</a></li>
+                            <li><a href="#">VILLEROY AND BOCH</a></li>
+                            <li><a href="#">IDROSPANIA</a></li>
+                            <li><a href="#">EQUIPEMENT PMR</a></li>
+                            <li><a href="#">ACO</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="menu-title">Carrelage <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cuisine</a></li>
+                            <li><a href="#">Salle de Bain</a></li>
+                            <li><a href="#">Salon</a></li>
+                            <li><a href="#">Chambre à Coucher</a></li>
+                            <li><a href="#">Extérieur</a></li>
+                            <li><a href="#">Espace Commercial</a></li>
+                            <li><a href="#">Piscine</a></li>
+                            <li><a href="#">Anti-Dérapant</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="parquet.html">Parquet</a></li>
+                    <li><a href="#">Salle de Bains</a></li>
+                    <li><a href="#">Cuisine</a></li>
+                    <li><a href="#">Piscine</a></li>
+                    <li><a href="#">Jardin</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Bienvenue à Maison Carrelage</h1>
+                <p class="blue">Votre spécialiste en carrelage et décoration depuis plus de 20 ans.</p>
+                <a href="#" class="cta-button">Découvrez nos produits</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Produits en vedette</h2>
+
+                <!-- Slider 1 -->
+                <div class="slider" id="slider1">
+                    <div class="slides">
+
+                        <div class="slide">
+                            <a href="ANIKSA_PULIDO_120x260.html">
+                                <img src="/images/1ANIKSA_PULIDO_120x260.jpg" style="filter: drop-shadow(0 28px 20px #0009); width:100%" alt="Produit Vedette 1">
+                                <div class="caption">ANIKSA_PULIDO_120x260 - Carrelage moderne et élégant</div>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="MEDICI_GOLD_NATURAL_120x260cm.html">
+                                <img src="/images/MEDICI_GOLD_NATURAL_120x260cm.jpg" style="filter: drop-shadow(0 28px 20px #0009); width:100%" alt="Produit Vedette 2">
+                                <div class="caption">MEDICI_GOLD_NATURAL_120x260cm - Carrelage en marbre doré naturel</div>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="BUCAREST_POLISHED_60X120cm.html">
+                                <img src="/images/BUCAREST_POLISHED_60X120cm.jpg" style="filter: drop-shadow(0 28px 20px #0009); width:100%" alt="Produit Vedette 3">
+                                <div class="caption">BUCAREST_POLISHED_60X120cm - Parquet en chêne poli</div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="plusSlides(-1, 1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 1)">&#10095;</button>
+                </div>
+
+                <!-- Slider 2 -->
+                <div class="slider" id="slider2">
+                    <div class="slides">
+
+                        <div class="slide">
+                            <a href="LUX_EUPHORIA_120X280.html">
+                                <img src="/images/LUX_EUPHORIA_120X280.PNG" alt="Produit Vedette 4">
+                                <div class="caption">LUX_EUPHORIA_120X280 - Carrelage moderne et élégant</div>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="SKIFER_SVART_60X120.html">
+                                <img src="/images/SKIFER_SVART_60X120.jpg" style="filter: drop-shadow(0 28px 20px #0009); width:100%" alt="Produit Vedette 5">
+                                <div class="caption">SKIFER_SVART_60X120 - Carrelage moderne et élégant</div>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="BUCAREST_POLISHED_60X120cm.html">
+                                <img src="/images/BUCAREST_POLISHED_60X120cm.jpg" style="filter: drop-shadow(0 28px 20px #0009); width:100%" alt="Produit Vedette 6">
+                                <div class="caption">BUCAREST_POLISHED_60X120cm - Carrelage moderne et élégant</div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="plusSlides(-1, 2)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1, 2)">&#10095;</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <h2>À propos de nous</h2>
+                <p>Maison Carrelage est votre fournisseur de confiance pour le carrelage, le parquet, et les produits de décoration intérieure. Depuis plus de deux décennies, nous fournissons des produits de haute qualité à nos clients.</p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Maison Carrelage</h4>
+                    <p>Votre spécialiste en carrelage depuis 2000</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Nos produits</a></li>
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Nous contacter</h4>
+                    <p>99 Angle El Farabi & Aza TASSILA Agadir</p>
+                    <p>Tél: +212 528 270 927</p>
+                    <p>Email: info@maisoncarrelage.net</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Maison Carrelage. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
